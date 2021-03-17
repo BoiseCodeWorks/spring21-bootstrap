@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Bree Serif', serif;
+}
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.ireland-image {
+  background-image: url(./ireland.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px black;
+}
